@@ -35,8 +35,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :multivers, Multivers.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "multivers",
+  password: "multivers",
   database: "multivers_dev",
   hostname: "localhost",
   pool_size: 10
