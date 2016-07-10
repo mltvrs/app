@@ -3,6 +3,7 @@
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
+  * Launch (in postgres root user) ./scripts/init.sh (to create Multivers user)
   * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
   * Install Node.js dependencies with `npm install`
   * Start Phoenix endpoint with `mix phoenix.server`
