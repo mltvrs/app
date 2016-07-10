@@ -12,8 +12,8 @@ config :logger, level: :warn
 # Configure your database
 config :multivers, Multivers.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "multivers",
-  password: "multivers",
+  username: "postgres",
+  password: "",
   database: "multivers_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox

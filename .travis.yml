@@ -3,3 +3,7 @@ elixir:
   - 1.3.1
 otp_release:
   - 18.2.1
+services:
+  - postgresql
+notifications:
+  slack: mltvrs:5KBifV2aRagM3F74PUXrl3uk
